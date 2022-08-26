@@ -21,7 +21,8 @@ struct NhanVien{
 };
 
 Struct GiamDoc{
-    string vitri . Hom nay la thu sau;
+    string vitri;
+    float HSL;
 };
 
 void NhapTT(NhanVien &nv){
