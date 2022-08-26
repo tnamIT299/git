@@ -22,6 +22,7 @@ struct NhanVien{
 
 Struct GiamDoc{
     string vitri;
+    int tuoi;
 };
 
 void NhapTT(NhanVien &nv){
