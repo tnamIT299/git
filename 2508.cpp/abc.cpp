@@ -20,11 +20,6 @@ struct NhanVien{
       int  Luong;
 };
 
-Struct GiamDoc{
-    string vitri;
-    int tuoi;
-   
-};
 
 void NhapTT(NhanVien &nv){
         cout << " Nhap ho va ten cua nhan vien :  "  << endl ;
