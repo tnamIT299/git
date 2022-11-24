@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phản Hồi</title>
+    </head>
+<body>
+
+<h2>Thông Tin Phản Hồi</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Họ:</label><label style="color:red">*</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Trịnh"><br>
+  <label for="lname">Tên đệm và tên :</label><label style="color:red">*</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Thành Nam"><br><br>
+  <label for="dateofbirth">Ngày tháng năm sinh:</label><label style="color:red">*</label><br>
+  <input type="date" id="dateofbirth" name="dateofbirth" ><br><br>
+  <label for="email">Email:</label><label style="color:red">*</label><br>
+  <input type="email" id="email" name="email" ><br><br>
+  <label for="problem">Vấn đề gặp phải:</label><label style="color:red">*</label><br>
+  <input type="text" id="problem" name="problem" ><br><br>
+  <label for="infor">Thông tin cần phản hồi:</label><label style="color:red">*</label><br>
+  <input type="text" id="infor" name="infor" ><br><br>
+  
+  <button type="button" onclick="Sumbit()">Submit</button>
+
+  <script>
+     function Sumbit() {
+        alert("Đã lưu thông tin phản hồi!");
+     }
+
+  </script>
+</form> 
+<p>Cảm ơn bạn đã phản hồi với chúng tôi!</p>
+
+
+</body>
+</html>
+
